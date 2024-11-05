@@ -1,0 +1,10 @@
+definition_version: 1
+native_app:
+   name: react_native_app
+   source_stage: stage_content.hello_snowflake_stage
+   artifacts:
+      - src: app/*
+        dest: ./
+   application:
+      name: react_native_app
+      debug: false
