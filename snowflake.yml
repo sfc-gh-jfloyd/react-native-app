@@ -6,5 +6,4 @@ native_app:
       - src: app/*
         dest: ./
    application:
-      name: react_native_app
       debug: false
